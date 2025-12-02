@@ -167,3 +167,20 @@
 // (age5 < 0)? alert('-1') :(age5 ==0)? alert('0') : alert('1');
 // let age6 = prompt('age?', 18);
 // (age6 < 10)? alert('你好，小逼崽子！') : alert('你好，小明！');
+// true || alert("not printed");
+// false || alert("printed");
+// 
+// let age7 = prompt('age?', 18);
+// // if(age7<14 ||age7>90){
+// //     alert('你还未成年，不能买彩票');
+// // }else{alert('你好，欢迎买彩票')};
+
+// if(!(age7>=14 &&age7<=90)) {alert('你还未成年，不能买彩票')}else{alert('你好，欢迎买彩票')};
+
+// 登录检验
+let username = prompt('请输入用户名', 'user');
+if(username == 'admin'){
+    let password = prompt('请输入密码', '123456');
+    if(password == '1234567'){alert('欢迎回来，管理员')
+    }else{alert('密码错误，请重新输入')}}
+else if(username == 'user'){alert('欢迎回来，普通用户')}else{alert('用户名不存在，请重新输入')};
