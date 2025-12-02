@@ -81,4 +81,44 @@
 // // alert(age8 + age9); // 10020
 // let age10 = age8 + age9;
 // alert(age10); 还是得到10020
-// 今天到基础运算符，数学运算
+
+// let age11 = '100';
+// alert (typeof +age11); // number
+
+// let age12 = '100', age13 = '20';
+// alert(+age12 + +age13); // 120
+// alert(age12 + age13);   10020
+// let age14 = 100;
+// age14++;
+// alert(age14);
+// 自增/自减
+
+// let age15 = 100;
+// let age16 = ++age15;
+// alert(age15);
+// alert(age16); 
+// let age17 = 10;
+// let age18 = age17++;
+// alert(age17);
+// alert(age18);
+
+// let age19 = 10;
+// age19++;
+// alert(age19); 得到11
+
+
+// let age20 = 10;
+// alert(age20++);
+// 得到10.
+// let age21 = 10;
+// ++age21;
+
+// alert(age21); // 11
+// let age22 = 10;
+// alert(++age22); // 11
+// let a = prompt("First number?", 1);
+// let b = prompt("Second number?", 2);
+// alert(+a + +b);
+// alert( 2 > 1 );  // true（正确）
+// alert( 2 == 1 ); // false（错误）
+// alert( 2 != 1 ); // true（正确）
