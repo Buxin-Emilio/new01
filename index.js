@@ -122,3 +122,48 @@
 // alert( 2 > 1 );  // true（正确）
 // alert( 2 == 1 ); // false（错误）
 // alert( 2 != 1 ); // true（正确）
+
+// if
+
+// let minZi = prompt('你叫什么来着？', '小明');
+// if (minZi == '小明') {alert('你好，小明！');
+//     alert('小明，你好！');
+// }
+
+// if (minZi == '小') {alert('你好，小逼崽子！');
+//     alert('小逼崽子，你好！');
+// }
+
+// else
+// let minZi = prompt('你叫什么来着？', '小明');
+// if (minZi == '小明') {alert('你好，小明！');
+//     }else if(minZi == '小'){alert('你好，小崽子！')} 
+//     else {alert('你好，小逼崽子！')}
+//     ;
+// let age = prompt('请输入你的年龄', 18);
+// let minZi = age < 11;
+// alert(minZi);
+
+// let age1 = prompt('请输入你的年龄', 18);
+// let minZi1 = age1 < 11? '你好，小逼崽子！' : '你好，小明！';
+// alert(minZi1);
+
+// let age3 = prompt('age?', 18);
+// let message = (age3 < 3) ? 'Hi, baby!' :
+//   (age3 < 18) ? 'Hello!' :
+//   (age3 < 100) ? 'Greetings!' :
+//   'What an unusual age!';
+// alert( message );
+// let company = prompt('Which company created JavaScript?', '');
+// (company == 'Netscape') ?
+// alert('Right!') : alert('Wrong.');
+
+// let age4 = prompt('age?', 18);
+// if (age4 <0) {alert('-1')}
+// else if (age4 >0){alert('1')}
+// else {alert('0')};
+// 这两个一样的
+// let age5 = prompt('age?', 18);
+// (age5 < 0)? alert('-1') :(age5 ==0)? alert('0') : alert('1');
+// let age6 = prompt('age?', 18);
+// (age6 < 10)? alert('你好，小逼崽子！') : alert('你好，小明！');
