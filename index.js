@@ -178,9 +178,43 @@
 // if(!(age7>=14 &&age7<=90)) {alert('你还未成年，不能买彩票')}else{alert('你好，欢迎买彩票')};
 
 // 登录检验
-let username = prompt('请输入用户名', 'user');
-if(username == 'admin'){
-    let password = prompt('请输入密码', '123456');
-    if(password == '1234567'){alert('欢迎回来，管理员')
-    }else{alert('密码错误，请重新输入')}}
-else if(username == 'user'){alert('欢迎回来，普通用户')}else{alert('用户名不存在，请重新输入')};
+// let username = prompt('请输入用户名', 'user');
+// if(username == 'admin'){
+//     let password = prompt('请输入密码', '123456');
+//     if(password == '1234567'){alert('欢迎回来，管理员')
+//     }else{alert('密码错误，请重新输入')}}
+// else if(username == 'user'){alert('欢迎回来，普通用户')}else{alert('用户名不存在，请重新输入')};
+// let i = 0;
+// while (i < 3) { // 依次显示 0、1 和 2
+//   alert( i );
+//   i++;
+// }
+// 
+// let i = 0;
+
+// for (i = 0; i < 3; i++) { // 使用现有的变量
+//   alert(i); // 0, 1, 2
+// }
+
+// alert(i); //3，可见，因为是在循环之外声明的
+// let sum = 0;
+
+// while (true) {
+
+//   let value = +prompt("Enter a number", '');
+
+//   if (!value) break; // (*)
+
+//   sum += value;
+
+// }
+// alert( 'Sum: ' + sum );
+// for (let ok = 0;ok <20;ok++)
+// {
+//  if(ok%2==0)continue;   alert(ok);
+// };
+let i = 9;
+while (i <13){
+    alert(i);
+    i++;
+};
