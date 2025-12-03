@@ -213,8 +213,17 @@
 // {
 //  if(ok%2==0)continue;   alert(ok);
 // };
-let i = 9;
-while (i <13){
-    alert(i);
-    i++;
-};
+// let i = 9;
+// while (i <13){
+//     alert(i);
+//     i++;
+// };
+// for (let i = 0; i<11; i++){
+//     if(i%2 !=0){alert(i)}
+// }
+// let i = 0;
+// while(i<3){
+//     alert( `number ${i}!`
+//      );
+//      i++;
+// };
