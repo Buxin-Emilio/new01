@@ -227,18 +227,30 @@
 //      );
 //      i++;
 // };
-let a = prompt('a?','');
-switch(a){
-    case '0':
-        alert('0');
-        break
-    case '1':
-        alert('1');
-        break
-        case '2':
-            case '3':
-                alert('2,3') ;
-                break;
-            default:
-    alert( 'We hope that this page looks ok!' ) 
-};
+// let a = prompt('a?','');
+// switch(a){
+//     case '0':
+//         alert('0');
+//         break
+//     case '1':
+//         alert('1');
+//         break
+//         case '2':
+//             case '3':
+//                 alert('2,3') ;
+//                 break;
+//             default:
+//     alert( 'We hope that this page looks ok!' ) 
+// };
+// let name1 = 'john';
+// function showName(){
+//     let name1 = 'wocao';
+//     alert(name1);
+// }
+// showName();
+// alert(name1);
+
+function showName(name1,name2){
+    alert(name1 + name2);}
+showName('wocao','lidaye');
+showName('wokao','lidayede');
