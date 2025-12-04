@@ -324,3 +324,5 @@ function showMessage(from, text = anotherFunction()) {
 // }
 // 这就不行了，因为函数声明提升了，所以函数声明在调用之前，所以调用的时候，函数还没有声明，所以会报错。
 
+// 1
+
