@@ -313,3 +313,14 @@ function showMessage(from, text = anotherFunction()) {
 // alert(pow(3,2));
 // alert(pow(4,0));
 // alert(pow(9,1/2));
+// function salut(name){
+// alert(`hello ${name}`)
+// }
+// salut('wocao');
+
+// saludar('wocao');
+// let saludar = function(minZi){
+//     alert(`hola ${minZi}`);
+// }
+// 这就不行了，因为函数声明提升了，所以函数声明在调用之前，所以调用的时候，函数还没有声明，所以会报错。
+
