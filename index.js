@@ -250,7 +250,66 @@
 // showName();
 // alert(name1);
 
-function showName(name1,name2){
-    alert(name1 + name2);}
-showName('wocao','lidaye');
-showName('wokao','lidayede');
+// function showName(name1,name2){
+//     alert(name1 + name2);}
+// showName('wocao','lidaye');
+// showName('wokao','lidayede');
+
+// function showMessage(from, text) {
+//   alert( from + ": " + text );
+// }
+// showMessage("Ann"); // Ann: no text given
+
+function showMessage(from, text = anotherFunction()) {
+  // anotherFunction() 仅在没有给定 text 时执行
+  // 其运行结果将成为 text 的值
+}
+
+
+// function checkAge(age) {
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     return confirm('Got a permission from the parents?');
+//   }
+// }
+
+// let age = prompt('How old are you?', 18);
+
+// if ( checkAge(age) ) {
+//   alert( 'Access granted' );
+// } else {
+//   alert( 'Access denied' );
+// }
+
+// function chackManey(money){
+//     if (money>=10000){
+//        return true;
+//     }
+// else{
+//     return confirm('You need more money to buy this product, do you want to continue?')
+// }};
+// let money = prompt('How much money do you have?',1000);
+// if(chackManey(money)){
+//     alert('You can buy this product');
+// }else{alert('You can not buy this product')};
+// function checkAge(age) {
+//   return (age>18)? true : confirm('Got a permission from the parents?');
+// };
+
+// function min(numero1,numero2) {
+
+//     return (numero1<numero2)? numero1 : numero2;
+   
+// };
+// alert(min(2, 5)); // 2
+// alert(min(3,-1)); // -1
+// alert(min(1,1)); // 1
+
+// function pow(a,b){
+//     return a**b;
+//     };
+// alert(pow(2,3));
+// alert(pow(3,2));
+// alert(pow(4,0));
+// alert(pow(9,1/2));
