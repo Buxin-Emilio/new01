@@ -326,3 +326,4 @@ function showMessage(from, text = anotherFunction()) {
 
 // 1
 
+// 暂时到这里结束，接下来的路还很长。
